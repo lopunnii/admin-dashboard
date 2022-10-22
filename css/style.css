@@ -58,9 +58,24 @@ main {
 }
 
 main #projects {
-    background-color: beige;
     grid-column: 1 / 2;
     grid-row: 1 / span 2;
+}
+
+main h2 {
+    margin: 10px;
+}
+
+main #projects .cards {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+main #projects .project {
+    background-color: white;
+    height: 200px;
 }
 
 main #announcements {
