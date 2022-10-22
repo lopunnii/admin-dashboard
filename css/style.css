@@ -31,6 +31,23 @@ nav {
     background-color: aquamarine;
     grid-column: 1 / 2;
     grid-row: 1 / span 2;
+
+    display: grid;
+    grid-template-rows: 1fr 5fr 7fr;
+    gap: 5px;
+}
+
+nav h1 {
+    padding: 12px;
+}
+
+nav ul {
+    padding: 12px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 10px 0;
 }
 
 main {
