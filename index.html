@@ -3,38 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <title>Admin Dashboard</title>
 </head>
 <body>
 
     <header>
         <div class="top-row">
-        <input type="search">
-        <p>Morgan Oakley</p>
+            <input type="search">
+            <p>Morgan Oakley</p>
         </div>
         <div class="bottom-row">
-        <p>Hi there,</p>
-        <p>Morgan Oakley (@morgan)</p>
-        <button>New</button>
-        <button>Upload</button>
-        <button>Share</button>
+            <div class="greeting">
+                <p>Hi there,</p>
+                <p>Morgan Oakley (@morgan)</p>
+            </div>
+            <div class="buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
         </div>
     </header>
 
     <nav>
-        <h1>Dashboard</h1>
+        <h1><span class="material-symbols-outlined">Dashboard</span>Dashboard</h1>
         <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
+            <li><span class="material-symbols-outlined">home</span>
+                <a href="#">Home</a></li>
+            <li><span class="material-symbols-outlined">account_circle</span>
+                <a href="#">Profile</a></li>
+            <li><span class="material-symbols-outlined">chat_bubble</span>
+                <a href="#">Messages</a></li>
+            <li><span class="material-symbols-outlined">history</span>
+                <a href="#">History</a></li>
+            <li><span class="material-symbols-outlined">task</span>
+                <a href="#">Tasks</a></li>
+            <li><span class="material-symbols-outlined">groups</span>
+                <a href="#">Communities</a></li>
         </ul>
         <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
+            <li><span class="material-symbols-outlined">settings</span>
+                <a href="#">Settings</a></li>
+            <li><span class="material-symbols-outlined">help</span>
+                <a href="#">Support</a></li>
+            <li><span class="material-symbols-outlined">verified_user</span>
+                <a href="#">Privacy</a></li>
         </ul>
     </nav>
 

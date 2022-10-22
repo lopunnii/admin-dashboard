@@ -9,10 +9,11 @@ body {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
+    font-family: 'Roboto', serif;
 }
 
 header {
-    background-color: yellow;
+    background-color: white;
     grid-column: 2 / 3;
 
     display: grid;
@@ -21,14 +22,23 @@ header {
 
 header .top-row {
     grid-row: 1 / 2;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
 }
 
 header .bottom-row {
     grid-row: 2 / 3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
 }
 
 nav {
-    background-color: aquamarine;
+    background-color: #0C7489;
+    color: white;
     grid-column: 1 / 2;
     grid-row: 1 / span 2;
 
@@ -48,10 +58,40 @@ nav ul {
 nav ul li {
     list-style-type: none;
     margin: 10px 0;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+nav ul li a:link {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:active {
+    text-decoration: none;
+    color: white;
 }
 
 main {
-    background-color: grey;
+    background-color: #cccccc;
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -75,7 +115,10 @@ main #projects .cards {
 
 main #projects .project {
     background-color: white;
-    height: 200px;
+    height: 150px;
+    border-left: 5px solid #119da4;
+    border-radius: 5px;
+    padding: 30px;
 }
 
 main #announcements .content {
@@ -96,4 +139,12 @@ main #trending .trending-content {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     gap: 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
