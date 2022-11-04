@@ -49,6 +49,10 @@ nav {
 
 nav h1 {
     padding: 12px;
+
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
 }
 
 nav ul {
@@ -60,7 +64,7 @@ nav ul li {
     margin: 10px 0;
 
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 35px 1fr;
     align-items: center;
 }
 
