@@ -28,12 +28,26 @@ header .top-row {
     place-items: center;
 }
 
+header .top-row p {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 header .bottom-row {
     grid-row: 2 / 3;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
+}
+
+header .greeting p:first-of-type {
+    font-weight: bold;
+}
+
+header .greeting p:last-of-type {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 header button {
