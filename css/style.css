@@ -28,7 +28,14 @@ header .top-row {
     place-items: center;
 }
 
-header .top-row p {
+header .top-row .profile {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    place-items: center;
+    gap: 8px;
+}
+
+header .top-row .profile p {
     font-weight: bold;
     font-size: 1rem;
 }
@@ -39,6 +46,13 @@ header .bottom-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
+}
+
+header .greeting {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    place-items: center;
+    gap: 10px;
 }
 
 header .greeting p:first-of-type {
@@ -175,10 +189,56 @@ main #trending .trending-content {
     gap: 5px;
 }
 
+#trending .people {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 8px;
+}
+
+/*Icons*/
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 1,
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+/*Avatars*/
+
+.avatar {
+    height: calc(300px / 6);
+    width: calc(300px / 6);
+    background-image: url(../img/avatar_sprite.jpg);
+    background-size: calc(1200px / 5) calc(1200px / 5);
+    border-radius: 50%;
+}
+
+.avatar-large {
+    height: calc(300px / 4);
+    width: calc(300px / 4);
+    background-image: url(../img/avatar_sprite.jpg);
+    background-size: calc(1200px / 3) calc(1200px / 3);
+    border-radius: 50%;   
+}
+
+.morgan-large {
+    background-position: -17px -10px;
+}
+
+.morgan {
+    background-position: -7px -3px;
+}
+
+.tegan {
+    background-position: -7px -177px;
+}
+
+.kendall {
+    background-position: -7px -120px;
+}
+
+.alex {
+    background-position: -7px -62px;
 }
