@@ -163,6 +163,7 @@ main {
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding: 15px;
 }
 
 main #projects {
@@ -187,12 +188,15 @@ main #projects .project {
     border-left: 5px solid #119da4;
     border-radius: 5px;
     padding: 30px;
+    box-shadow: 4px 5px 1px #aaaaaa;
 }
 
 main #announcements .content {
     background-color: white;
     padding: 10px;
     margin: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 5px 1px #aaaaaa;
 
     display: grid;
     grid-template-rows: repeat(3. 1fr);
@@ -203,10 +207,12 @@ main #trending .trending-content {
     background-color: white;
     padding: 10px;
     margin: 10px;
+    border-radius: 5px;
 
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     gap: 5px;
+    box-shadow: 4px 5px 1px #aaaaaa;
 }
 
 #trending .people {
