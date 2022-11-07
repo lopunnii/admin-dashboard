@@ -28,9 +28,29 @@ header .top-row {
     place-items: center;
 }
 
-header .top-row .profile {
+header .top-row .search-bar {
     display: grid;
     grid-template-columns: 50px 1fr;
+    place-items: center;
+}
+
+header .top-row input {
+    width: 350px;
+    height: 30px;
+    background-color: #cccccc;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+header .top-row input:focus {
+    outline: none;
+}
+
+header .top-row .profile {
+    display: grid;
+    grid-template-columns: 50px 50px 1fr;
     place-items: center;
     gap: 8px;
 }
@@ -203,6 +223,11 @@ main #trending .trending-content {
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+.no-fill {
+  font-variation-settings:
+  'FILL' 0 
 }
 
 /*Avatars*/
