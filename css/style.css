@@ -189,6 +189,14 @@ main #projects .project {
     border-radius: 5px;
     padding: 30px;
     box-shadow: 4px 5px 1px #aaaaaa;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+main #projects .project-icons {
+    justify-self: end;
+    align-self: end;
 }
 
 main #announcements .content {
