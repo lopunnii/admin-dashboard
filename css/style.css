@@ -166,6 +166,10 @@ main {
     padding: 15px;
 }
 
+main p {
+    color: #555555;
+}
+
 main #projects {
     grid-column: 1 / 2;
     grid-row: 1 / span 2;
