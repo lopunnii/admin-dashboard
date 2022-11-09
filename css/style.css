@@ -201,7 +201,7 @@ main #projects .project-icons {
 
 main #announcements .content {
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     border-radius: 5px;
     box-shadow: 4px 5px 1px #aaaaaa;
@@ -209,6 +209,15 @@ main #announcements .content {
     display: grid;
     grid-template-rows: repeat(3. 1fr);
     gap: 5px;
+}
+
+main #announcements .content div {
+    padding: 5px;
+}
+
+main #announcements .content div:nth-child(-n+2) {
+    border-bottom: 1px solid #aaaaaa;
+    padding: 5px 5px 10px 5px;
 }
 
 main #trending .trending-content {
