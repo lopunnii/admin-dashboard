@@ -103,6 +103,8 @@ header button:hover {
 nav {
     background-color: #0C7489;
     color: white;
+    font-weight: bold;
+
     grid-column: 1 / 2;
     grid-row: 1 / span 2;
 
@@ -143,7 +145,7 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-    font-weight: bold;
+    font-size: 1.1rem;
     color: white;
 
 }
