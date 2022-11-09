@@ -12,7 +12,7 @@ body {
     font-family: 'Roboto', serif;
 }
 
-header {
+header .container {
     background-color: white;
     grid-column: 2 / 3;
 
@@ -37,7 +37,7 @@ header .top-row .search-bar {
 header .top-row input {
     width: 350px;
     height: 30px;
-    background-color: #cccccc;
+    background-color: #e2e8f0;
     border: none;
     border-radius: 15px;
     font-size: 1rem;
@@ -159,7 +159,7 @@ nav ul li a:active {
 }
 
 main {
-    background-color: #cccccc;
+    background-color: #e2e8f0;
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -188,7 +188,7 @@ main #projects .project {
     border-left: 5px solid #119da4;
     border-radius: 5px;
     padding: 30px;
-    box-shadow: 4px 5px 1px #aaaaaa;
+    box-shadow: 2px 3px 3px #94a3b8;
 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -204,7 +204,7 @@ main #announcements .content {
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
-    box-shadow: 4px 5px 1px #aaaaaa;
+    box-shadow: 2px 3px 3px #94a3b8;
 
     display: grid;
     grid-template-rows: repeat(3. 1fr);
@@ -216,7 +216,7 @@ main #announcements .content div {
 }
 
 main #announcements .content div:nth-child(-n+2) {
-    border-bottom: 1px solid #aaaaaa;
+    border-bottom: 1px solid #94a3b8;
     padding: 5px 5px 10px 5px;
 }
 
@@ -229,7 +229,7 @@ main #trending .trending-content {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     gap: 5px;
-    box-shadow: 4px 5px 1px #aaaaaa;
+    box-shadow: 2px 3px 3px #94a3b8;
 }
 
 #trending .people {
