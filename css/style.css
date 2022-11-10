@@ -18,6 +18,8 @@ header {
     box-shadow: 0px 3px 5px #94a3b8;
     position: relative;
     z-index: 1;
+    padding-left: 50px;
+    padding-bottom: 8px;
 
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -27,8 +29,9 @@ header .top-row {
     grid-row: 1 / 2;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     place-items: center;
+    justify-items: start;
 }
 
 header .top-row .search-bar {
@@ -38,7 +41,7 @@ header .top-row .search-bar {
 }
 
 header .top-row input {
-    width: 350px;
+    width: 250px;
     height: 30px;
     background-color: #e2e8f0;
     border: none;
@@ -61,6 +64,7 @@ header .top-row .profile {
 header .top-row .profile p {
     font-weight: bold;
     font-size: 1rem;
+    padding-left: 10px;
 }
 
 header .bottom-row {
@@ -71,23 +75,30 @@ header .bottom-row {
     place-items: center;
 }
 
-header .greeting {
+header .bottom-row .greeting {
     display: grid;
     grid-template-columns: 75px 1fr;
     place-items: center;
-    gap: 10px;
+    justify-self: start;
+    gap: 15px;
 }
 
-header .greeting p:first-of-type {
+header .bottom-row .greeting p:first-of-type {
     font-weight: bold;
 }
 
-header .greeting p:last-of-type {
+header .bottom-row .greeting p:last-of-type {
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-header button {
+header .bottom-row .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+header .bottom-row button {
     background-color: #119da4;
     padding: 10px;
     color: white;
@@ -98,7 +109,7 @@ header button {
     font-weight: bold;
 }
 
-header button:hover {
+header .bottom-row button:hover {
     background-color: #0C7489;
     cursor: pointer;
 }
