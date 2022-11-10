@@ -124,12 +124,12 @@ nav {
     grid-row: 1 / span 2;
 
     display: grid;
-    grid-template-rows: 1fr 5fr 7fr;
-    gap: 5px;
+    grid-template-rows: 60px 1fr;
+    align-items: start;
 }
 
 nav h1 {
-    padding: 12px;
+    padding: 15px;
 
     display: grid;
     grid-template-columns: 35px 1fr;
@@ -137,12 +137,12 @@ nav h1 {
 }
 
 nav ul {
-    padding: 12px;
+    padding: 15px;
 }
 
 nav ul li {
     list-style-type: none;
-    margin: 10px 0;
+    margin: 20px 0;
 
     display: grid;
     grid-template-columns: 35px 1fr;
