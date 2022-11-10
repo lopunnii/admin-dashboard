@@ -100,7 +100,7 @@ header .bottom-row .buttons {
 }
 
 header .bottom-row button {
-    background-color: #119da4;
+    background-color: #0c94d1;
     padding: 10px;
     color: white;
     border-radius: 15px;
@@ -111,12 +111,12 @@ header .bottom-row button {
 }
 
 header .bottom-row button:hover {
-    background-color: #0C7489;
+    background-color: #3ca9da;
     cursor: pointer;
 }
 
 nav {
-    background-color: #0C7489;
+    background-color: #0c94d1;
     color: white;
     font-weight: bold;
     font-size: 1.1rem;
@@ -217,7 +217,7 @@ main #projects .cards {
 main #projects .project {
     background-color: white;
     height: 180px;
-    border-left: 5px solid #119da4;
+    border-left: 6px solid #fbbf24;
     border-radius: 5px;
     padding: 30px;
     box-shadow: 2px 3px 3px #94a3b8;
@@ -274,6 +274,12 @@ main #trending .trending-content {
     display: grid;
     grid-template-columns: 50px 1fr;
     gap: 8px;
+}
+
+/*Center avatars with text*/
+
+#trending h4, .greeting p {
+    line-height: 2rem;
 }
 
 /*Icons*/
