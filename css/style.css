@@ -41,13 +41,14 @@ header .top-row .search-bar {
 }
 
 header .top-row input {
-    width: 250px;
+    width: 40vw;
+    max-width: 800px;
     height: 30px;
     background-color: #e2e8f0;
     border: none;
     border-radius: 15px;
     font-size: 1rem;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 header .top-row input:focus {
