@@ -53,6 +53,7 @@ header .top-row input {
 
 header .top-row input:focus {
     outline: none;
+    border: 2px solid #b8b8b8;
 }
 
 header .top-row .profile {
