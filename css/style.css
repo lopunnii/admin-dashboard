@@ -177,15 +177,18 @@ nav ul li a:active {
     color: white;
 }
 
-nav p a:visited {
-    text-decoration: none;
-    color: white;
-}
-
 nav p {
     font-size: 0.8rem;
     position: absolute;
     bottom: 2px;
+}
+
+nav p a:link {
+    color: white;
+}
+
+nav p a:visited {
+    color: white;
 }
 
 main {
